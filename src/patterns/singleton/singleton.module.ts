@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
 import { SingletonController } from './singleton.controller';
-import { SingletonController } from './singleton.controller';
 
 @Module({
-  controllers: [SingletonController]
+  controllers: [SingletonController],
 })
 export class SingletonModule {}

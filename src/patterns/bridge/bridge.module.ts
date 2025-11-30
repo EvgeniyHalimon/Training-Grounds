@@ -2,6 +2,6 @@ import { Module } from '@nestjs/common';
 import { BridgeController } from './bridge.controller';
 
 @Module({
-  controllers: [BridgeController]
+  controllers: [BridgeController],
 })
 export class BridgeModule {}
